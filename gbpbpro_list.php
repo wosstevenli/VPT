@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <title>PowerBank List</title>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/sys.css" rel="stylesheet" type="text/css" />
@@ -45,9 +45,9 @@ while ($row=mysql_fetch_array($result)) {
 
 <td>
 <div style="float:left; width:25%; text-align:center">
-<a href="../PowerBank/VPT-PB<?php echo $row["tl_bm"]?>/VPT-PB<?php echo $row['tl_bm'] ?>.jpg">
-<img border="0" style=" width:180px; height:180px;" alt="详细内容" src="../PowerBank/VPT-PB<?php echo $row["tl_bm"]?>/VPT-PB<?php echo $row['tl_bm'] ?>.jpg" /></a>
-<a href="../PowerBank/VPT-PB<?php echo $row["tl_bm"]?>/VPT-PB<?php echo $row['tl_bm'] ?>.jpg"><span class="Blue"><?php echo $row['tl_name'] ?></span></a>
+<a href="PowerBank/VPT-PB<?php echo $row["tl_bm"]?>/VPT-PB<?php echo $row['tl_bm'] ?>.jpg">
+<img border="0" style=" width:180px; height:180px;" alt="详细内容" src="PowerBank/VPT-PB<?php echo $row["tl_bm"]?>/VPT-PB<?php echo $row['tl_bm'] ?>.jpg" /></a>
+<a href="PowerBank/VPT-PB<?php echo $row["tl_bm"]?>/VPT-PB<?php echo $row['tl_bm'] ?>.jpg"><span class="Blue"><?php echo $row['tl_name'] ?></span></a>
 </div>
 </td>
 
